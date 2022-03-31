@@ -6,6 +6,10 @@ A set is a collection of unique, unordered pieces of data. Meaning that there ca
 
 ## What is the Big O of Set operations?
 
+So long as a the data fits the criteria of a set, it is a great choice for its efficiency. Each of its operations add(), update(), remove(), discard(), clear() have an efficiency of O(1).
+
+This is as fast as a function can be (constant time).
+
 ## Sets in Python
 
 ### Creating a Set ----
@@ -53,7 +57,7 @@ Output:
 
 ### Set Functions ----
 
-<span style="color: blue">add()</span> - to add a new element to the set
+<span style="color: blue">add()</span> - Used to add a new element to the set.
 
 ```python
 int_set = {1,2,3,4}
@@ -67,7 +71,7 @@ Output:
 {1,2,3,4,5}
 ```
 
-<span style="color: blue">update()</span> - to add multiple new elements to a set at once. New elements can be passed as a set or list
+<span style="color: blue">update()</span> - Used to add multiple new elements to a set at once. New elements can be passed as a set or list
 
 ```python
 int_set = {1,2,3,4}
@@ -79,4 +83,34 @@ Output:
 
 ```python
 {1,2,3,4,5,6,7,8}
+```
+
+<span style="color: blue">remove()/discard()</span> - Used to remove an element from the set. The only difference between the two is that remove() raises a KeyError if the element to be removed is not present.
+
+```python
+int_set = {1,2,3,4}
+int_set.remove(3)
+print(int_set)
+```
+
+Output:
+
+```python
+{1,2,4}
+```
+
+remove() and discard() can also both be given multiple elements at once.
+
+<span style="color: blue">clear()</span> - removes all elements from a set
+
+```python
+int_set = {1,2,3,4}
+int_set.clear()
+print(int_set)
+```
+
+Output:
+
+```python
+set()
 ```

@@ -14,6 +14,6 @@ Each lesson will have an example problem which should be completed before checki
 
 Any questions or comments should be directed to:
 
-Andrew LaPointe, BYU-Idaho, CSE 212, Section ?
+Andrew LaPointe, BYU-Idaho, CSE 212, Section 4
 
 andrewlapointe@byui.edu
