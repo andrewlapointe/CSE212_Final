@@ -14,20 +14,50 @@ As seen above the tree is made of nodes. A parent is a node which has a descende
 
 ## Trees in Python
 
+### Creating a Tree ----
+
 To create a tree in python we will first need a Node class. For this example we will be creating a binary tree, which means that each parent can have at most two children.
 
 <span style="color: green">#Creating the Node class</span>
 
 ```python
 class Node(object):
-    def __init__(self):
+    def __init__(self, data):
         self.left = None
         self.right = None
-        self.data = None
+        self.data = data
 ```
 
-### Creating a Tree ----
+<span style="color: green">#Creating the Root with a value of 10</span>
+
+```python
+root = Node(10)
+```
+
+<span style="color: green">#Creating the Root's children</span>
+
+```python
+root.left = Node(12)
+root.right = Node(3)
+print(root.data, root.left.data, root.right.data)
+```
+
+Output:
+
+```python
+10,12,3
+```
+
+This is the most basic implementation of the tree. In real code there would be a class created to handle insertions, deletions, etc. The Node class, however, remains the same.
 
 ### Tree Functions ----
+
+Tree functions are great for their efficiency. A search function can be as fast as O(log n).
+
+This is done through recursion.
+
+-[Example Problem](python/tree_problem.py)
+
+-[Example Problem Solution](python/tree_problem_solution.py)
 
 -[Link Back to Welcome](0-welcome.md)
