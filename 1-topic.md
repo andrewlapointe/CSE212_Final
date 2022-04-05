@@ -59,4 +59,6 @@ The output would be:
 [3,2]
 ```
 
+-[Example Problem](python/stack_problem.py)
+
 -[Link Back to Welcome](0-welcome.md)
