@@ -1,13 +1,3 @@
-<!-- 1. What is a data structure?
-
-2. What is "Big O"?
-
-1. What is it?
-
-3. How efficient is it?
-
-4. How would the data structure be used in Python -->
-
 # Stack
 
 ## What is a Stack?
