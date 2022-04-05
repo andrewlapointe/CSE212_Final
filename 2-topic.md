@@ -115,4 +115,8 @@ Output:
 set()
 ```
 
+-[Example Problem](python/set_problem.py)
+
+-[Example Problem Solution](python/set_problem_solution.py)
+
 -[Link Back to Welcome](0-welcome.md)
